@@ -1,0 +1,276 @@
+body{
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+
+}
+
+.imgbox{
+    margin: 0;
+    height: 100%;
+    width: 30%;
+}
+.img{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    
+
+}
+
+.box1{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    flex-direction: column; 
+    height: 100%;
+    
+}
+
+.heading{
+    margin: auto;
+}
+
+@font-face {
+    font-family: open_sans;
+    src: url(./fonts/OpenSans-Regular.ttf);
+}
+.Signin{
+    font-family: open_sans;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.login{
+    font-family: open_sans;
+    font-size: 16px;
+    font-weight: 400;
+    color: #6B7280;
+}
+.container{
+    display: flex;
+    width: auto;
+    height: auto;
+    
+}
+.Sign{
+    background-color: #4285F4;
+    width: 281px;
+    height: 48px;
+    border: none;
+    margin-left: 0;
+    border-radius: 4px;
+    padding: 2px;
+    display: flex;
+}
+
+.glabel{
+    color: white;
+    font-family: open_sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    margin-left: 50px;
+    text-align: center;
+    margin-top: 10px;
+    
+
+}
+
+#google{
+    width: 47px;
+    height: 47px;
+    border: none;
+    background-color: white;
+}
+
+.facebook{
+    display: flex;
+    margin-left: 5px;
+    border: none;
+
+}
+#fimg{
+    width: 48px;
+    height: 48px;
+    border: none;
+    
+}
+
+.line{
+    width: 372px;
+    height: 2px;
+    background-color: grey;
+    position: relative;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.photo{
+    width: 48px;
+    height: 48px;
+}
+
+.email_div{
+    display: flex;
+    border: 1px solid #E5E7EB;
+    border-radius: 4px;
+    width: 340px;
+    height: 48px;
+    margin-left: 0px;
+
+}
+.email{
+    font-family: Open_Sans;
+    font-size: 14px;
+    font-weight: 600;
+    color: #D1D5DB;
+    margin-top: 16px;
+    margin-left: 9px;  
+    height: 18px;
+    width: 324px;
+    border: none;
+}
+
+.photo{
+    margin-top: 16px;
+    margin-left: 9px;
+    width: 16px;
+    height: 16px;   
+}
+
+
+.p1{
+    color:  #6B7280;
+    font-family: Open_Sans; 
+    font-size: 14px;
+    font-weight: 600;
+    text-align: left;
+    margin-left: 0px;
+
+}
+
+.span2{
+    
+    color:  #6B7280;
+    font-family: Open_Sans; 
+    font-size: 14px;
+    font-weight: 600;
+    text-align: left;
+    margin-left: 0px;
+
+}
+
+.continue{
+    width: 340px;
+    height: 48px;
+    border-radius: 6px;
+    background: #724DFF;
+    border: none;
+    color: white;
+    font-family: open_sans;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 360px ) {
+    .imgbox{
+        display: none !important;
+        margin: 0;
+        height: 100%;
+        width: 30%;
+    }
+
+
+    .Signin{
+        font-family: open_sans;
+        font-size: 18px;
+        font-weight: 700;
+        margin: 0;
+        margin-top: 15px;
+        text-align: center !important;
+
+
+    }
+    
+    .login{
+        font-family: open_sans;
+        font-size: 16px;
+        font-weight: 400;
+        color: #6B7280;
+        text-align: center !important;
+        margin: 0;
+    }
+    .container{
+        display: flex;
+        width: auto;
+        height: auto;
+        margin-top: 36px !important;
+    }
+    .Sign{
+        background-color: #4285F4;
+        width: 253px !important;
+        height: 48px;
+        border: none;
+        margin-left: 0;
+        border-radius: 4px;
+        padding: 2px;
+        display: flex;
+    }
+    .facebook{
+        display: flex;
+        margin-left: 5px;
+        border: none;
+        border-radius: 30px !important;
+    }
+    
+    .line{
+        display: none !important;
+    }
+    .email_div{
+        display: flex;
+        border: 1px solid #E5E7EB;
+        border-radius: 50px !important;
+        width: 312px !important;
+        height: 48px;
+        margin-top: 12px !important;
+        
+    
+    }
+    .paragraph{
+        width: 100% !important;
+    }
+    .span2{
+        display: block !important;
+        color:  #6B7280;
+        font-family: Open_Sans; 
+        font-size: 14px;
+        font-weight: 600;
+        text-align: left;
+        margin-left: 0px !important;
+        margin-top: 12px !important;
+    
+    }
+
+    .button2{
+        width: 100% !important;
+        display: flex !important;
+        justify-content: center !important;
+
+    }
+    .continue{
+        width: 121px !important;
+        height: 48px;
+        border-radius: 6px;
+        background: #724DFF;
+        border: none;
+        color: white;
+        font-family: open_sans;
+        font-size: 16px;
+        font-weight: 600;
+        
+    }
+}
